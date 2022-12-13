@@ -1,0 +1,5 @@
+minutes = int(input("Entrez le nombre de minutes :"))
+jour = int(minutes/1440)
+heure = int(minutes%1440/60)
+minutes = int(minutes%1440%60)
+print ("On est le {},il est {}:{}".format(jour,heure,minutes))
